@@ -5,4 +5,3 @@ def merge(arr1, arr2):
     arr3.sort()
     return arr3
 merge(arr1, arr2)
-print (merge(arr1, arr2))
