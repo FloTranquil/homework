@@ -3,7 +3,6 @@ arr2 = [6, 7, 8, 9, 1]
 def merge(arr1, arr2):
     arr3 = list(set(arr1 + arr2))
     arr3.sort()
-    return arr3   
+    return arr3
+merge(arr1, arr2)
 print (merge(arr1, arr2))
-
-
